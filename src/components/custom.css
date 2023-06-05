@@ -2,6 +2,10 @@
     background-color: blueviolet;
 }
 
+.head-padd{
+    padding-left: 5vh;
+}
+
 .padd{
     margin: 5vh;
     padding: 10vh;
@@ -16,4 +20,12 @@
         align-items: center;
         background-color: rgb(237, 240, 244);
     
+}
+ul {
+    list-style-type: circle;
+}
+
+.div-padd{
+   margin-left: 25vh;
+   margin-right: 25vh;
 }

@@ -6,8 +6,16 @@ const HeroSection = () => {
   return (
     <div>
     <div className="hero-section">
+      <br/>
       <Container>
         <Row>
+        <Col md={6}>
+            <img src={require('./367.png')} alt="Hero Image" style={{
+          height: 600,
+          width: 600
+        }} />
+            
+          </Col>
           <Col md={6}>
             <br/>
             <h1 className="display-4">Welcome to Brave Fox</h1>
@@ -22,13 +30,7 @@ const HeroSection = () => {
             Brave Fox today primarily focuses on delivering turnkey IT projects for its customers and handling complex IT requirements by providing wise solutions to its customers as time often trades for money while our customers have projects to deliver within a short notice.</p>
             
           </Col>
-          <Col md={6}>
-            <img src={require('./367.png')} alt="Hero Image" style={{
-          height: 600,
-          width: 600
-        }} />
-            
-          </Col>
+          
         </Row>
       </Container>
     </div>

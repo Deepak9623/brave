@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './custom.css';
 
 
 
@@ -25,22 +26,22 @@ const Header = () => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <NavItem>
+            <NavItem className='head-padd'>
               <NavLink href="/home">Home</NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className='head-padd'>
               <NavLink href="/services">Services</NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className='head-padd'>
               <NavLink href="/microsoft">Microsoft</NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className='head-padd'>
               <NavLink href="/aboutus">About Us</NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className='head-padd'>
               <NavLink href="/careers">Careers</NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className='head-padd'>
               <NavLink href="/contactus">Contact Us</NavLink>
             </NavItem>
           </Nav>
