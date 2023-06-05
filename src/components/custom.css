@@ -1,0 +1,19 @@
+.dee{
+    background-color: blueviolet;
+}
+
+.padd{
+    margin: 5vh;
+    padding: 10vh;
+}
+
+.foo{
+    
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(237, 240, 244);
+    
+}
