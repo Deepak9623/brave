@@ -1,8 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './components/Header';
+import { Button } from 'reactstrap';
 
 function App() {
-  return <h1>Service is currently down</h1>;
+  return (<div>
+    <Header></Header>
+    <Button>This </Button>
+  </div>);
 }
 
 export default App;
