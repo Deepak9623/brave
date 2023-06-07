@@ -14,13 +14,13 @@ const Header = () => {
     };
   
     return (
-      <Navbar color="light" light expand="md">
+      <Navbar color="light" light expand="md" className='sticky-top'>
         <NavbarBrand href="/"><img
         src="/logonew.ico"
         alt="logoo"
         style={{
-          height: 60,
-          width: 60
+          height: 50,
+          width: 50
         }}
       /></NavbarBrand>
         <NavbarToggler onClick={toggle} />

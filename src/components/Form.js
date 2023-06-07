@@ -8,11 +8,7 @@ const Form = () => {
         email: '',
         message: ''
       };
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
+  const [formData, setFormData] = useState(initialFormData);
 
   const [submitMessage, setSubmitMessage] = useState('');
   const handleChange = (e) => {
@@ -23,11 +19,13 @@ const Form = () => {
     
     e.preventDefault();
     console.log(formData); // You can perform any further actions with the form data here
-    setSubmitMessage('Form submitted successfully!');
+    
     setFormData(initialFormData);
+    setSubmitMessage('Form submitted successfully!');
   };
 
   return (
+    <div>
     <form onSubmit={handleSubmit} className="form-container">
       <label>
         Name:
@@ -43,6 +41,8 @@ const Form = () => {
       </label>
       <button type="submit">Submit</button>
     </form>
+    {submitMessage && <p>{submitMessage}</p>}
+    </div>
   );
 }
 
