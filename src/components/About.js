@@ -77,9 +77,9 @@ Advisory Board
         
         <Row>
   <Col sm="4">
-  <Card
+  <Card className='padd'
   style={{
-    width: '20rem'
+    width: '100%'
   }}
 >
   <CardBody>
@@ -94,8 +94,8 @@ Advisory Board
     </CardSubtitle>
   </CardBody>
   <img
-    alt="Card cap"
-    src={require('./9967.png')}
+    
+    src={require('./9967s.jpg')} alt="Card cap" 
     width="100%"
   />
   <CardBody>
@@ -116,9 +116,9 @@ included Wipro, TCS, CTS and MahindraSatyam.
 </Card>
   </Col>
   <Col sm="4">
-  <Card
+  <Card className='padd'
   style={{
-    width: '20rem'
+    width: '100%'
   }}
 >
   <CardBody>
@@ -134,7 +134,7 @@ included Wipro, TCS, CTS and MahindraSatyam.
   </CardBody>
   <img
     alt="Card cap"
-    src={require('./9868.png')}
+    src={require('./9868s.jpg')}
     width="100%"
   />
   <CardBody>
@@ -152,9 +152,9 @@ is based in Maharashtra, India.
 </Card>
   </Col>
   <Col sm="4">
-  <Card
+  <Card className='padd'
   style={{
-    width: '20rem'
+    width: '100%'
   }}
 >
   <CardBody>
@@ -170,7 +170,7 @@ is based in Maharashtra, India.
   </CardBody>
   <img
     alt="Card cap"
-    src={require('./9954.png')}
+    src={require('./9954s.jpg')}
     width="100%"
   />
   <CardBody>

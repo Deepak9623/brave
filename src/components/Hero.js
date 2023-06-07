@@ -10,9 +10,9 @@ const HeroSection = () => {
       <Container>
         <Row>
         <Col md={6}>
-            <img src={require('./367.png')} alt="Hero Image" style={{
-          height: 600,
-          width: 600
+            <img src={require('./367s.jpg')} className='img-fluid' alt="Hero Image" style={{
+          height: 550,
+          width: 550
         }} />
             
           </Col>

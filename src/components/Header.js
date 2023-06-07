@@ -25,7 +25,7 @@ const Header = () => {
       /></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
+          <Nav className="m-auto" navbar>
             <NavItem className='head-padd'>
               <NavLink href="/home">Home</NavLink>
             </NavItem>

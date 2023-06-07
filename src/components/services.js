@@ -176,8 +176,9 @@ const Services = () => {
             <br/>
         <p className="lead"><h2>Customer Speaks:</h2></p>
         <Row>
+          
   <Col sm="5">
-    <Card body>
+    <Card body className='padd'>
       <CardTitle tag="h5">
       Senior Management Staff Leading IT Firm
       </CardTitle>
@@ -189,8 +190,9 @@ const Services = () => {
       
     </Card>
   </Col>
+  
   <Col sm="5">
-    <Card body>
+    <Card body className='padd'>
       <CardTitle tag="h5">
       CTO, Leading Retail firm
       </CardTitle>

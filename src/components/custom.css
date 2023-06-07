@@ -3,12 +3,12 @@
 }
 
 .head-padd{
-    padding-left: 5vh;
+    padding-right: 5vh;
 }
 
 .padd{
-    margin: 5vh;
-    padding: 10vh;
+    margin: 4%;
+    padding: 4%;
 }
 
 .foo{
@@ -26,6 +26,6 @@ ul {
 }
 
 .div-padd{
-   margin-left: 25vh;
-   margin-right: 25vh;
+   margin-left: 10%;
+   margin-right: 10%;
 }
