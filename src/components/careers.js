@@ -52,7 +52,7 @@ Selenium Testers
 <br/>
 <br/>
 
-<p>Please send your resumes to <u>careers@bravefox.in</u> with your skillset, years of exp and location in the subject line.</p>
+<p>Please send your resumes to <u>careers@bravefox.org</u> with your skillset, years of exp and location in the subject line.</p>
 <br/>
      
                 </p>
