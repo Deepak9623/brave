@@ -15,8 +15,8 @@ const Contact = () => {
                 <h1 className="display-4">Contact Us</h1>
                 
                 <br/>
-                <p className="lead">Contact: <u>contact@bravefox.in</u> <br/>Other Enquiries: <u>info@bravefox.in</u>
-                <br/>Careers: <u>careers@bravefox.in</u><p/>
+                <p className="lead">Contact: <u>contact@bravefox.org</u> <br/>Other Enquiries: <u>info@bravefox.org</u>
+                <br/>Careers: <u>careers@bravefox.org</u><p/>
                 <br/>
                 <p>Have questions that you need assistance with? Please fill in the below details and the right respresentative from Brave Fox will be in touch with you soon.</p>
                 <br/>
