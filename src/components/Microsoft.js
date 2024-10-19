@@ -201,7 +201,7 @@ const Microsoft = () => {
                         <p>Brave Fox focus on Microsoft technology, an experienced management team with key professionals who have been with Microsoft, and well-defined global delivery processes provide customers the advantage they need for cost-effective solution development. Brave Fox has a continuous effort spent on research and analysis effort.</p>
                     </p><br/><br/>
                     <p>Contact us to learn more about how Brave Fox can help you by leveraging Microsoft technologies.<br />
-                        <u>info@bravefox.in</u></p><br/>
+                        <u>info@bravefox.org</u></p><br/>
                     <p />
 
 
